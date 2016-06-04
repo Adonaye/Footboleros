@@ -1,0 +1,29 @@
+{
+  "name": "Footboleros",
+  "version": "0.0.1",
+  "description": "Enjoy the nearby league!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Adonaye/Footboleros.git"
+  },
+  "keywords": [
+    "web",
+    "app",
+    "soccer",
+    "sports",
+    "fun"
+  ],
+  "author": "adonayE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adonaye/Footboleros/issues"
+  },
+  "homepage": "https://github.com/Adonaye/Footboleros",
+  "dependencies": {
+    "semantic-ui": "^2.1.8"
+  }
+}
