@@ -1,1 +1,1 @@
-#Static web pages using angular.js y semantic ui for Footboleros
+#Static web pages using angular.js and semantic ui for Footboleros

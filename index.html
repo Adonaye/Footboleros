@@ -2,11 +2,65 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 		<title>Footboleros</title>
+		<link rel="icon" href="images/logo.png" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script src="semantic/dist/semantic.min.js"></script>
 		<link rel="stylesheet" href="css/app.css">
 	</head>
 	<body>
-		
+		<div class="ui large bottom horizontal inverted menu sidebar">
+			<a class="item" href="#">Matches</a>
+			<a class="item" href="#">Other One</a>
+			<div class="item">
+				<a class="ui fluid positive button">Log In</a>
+			</div>
+			<div class="item">
+				<a class="ui primary button">Sign Up</a>
+			</div>
+		</div>
+		<div class="ui grid">
+			<div class="computer tablet only row">
+				<div class="ui top menu fixed inverted navbar">
+					<div class="ui attached container">
+						<div class="brand item">
+							<a id="logo">Footboleros</a>
+						</div>
+						<a class="item" href="#">Matches</a>
+						<a class="item" href="#">Other One</a>
+						<div class="right menu">
+							<div class="item">
+								<a class="ui positive button">Log In</a>
+							</div>
+							<div class="item">
+								<a class="ui primary button">Sign Up</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mobile only row">
+				<div class="ui top menu fixed inverted navbar">
+					<div class="brand item">
+						<a id="logo" href>Footboleros</a>
+					</div>
+					<div class="right menu open">
+						<a id="side-trigger" class="menu item">
+							<i class="content icon"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="pusher">
+			<main class="ui page grid">
+				<div class="row">
+					
+				</div>
+			</main>
+		</div>
+		<script src="js/app.js"></script>
 	</body>
 </html>
